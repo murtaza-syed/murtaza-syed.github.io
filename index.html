@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+	<!--- basic page needs
+   ================================================== -->
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+	<title>Murtaza Syed</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/vendor.css">
+
+	<!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+	<!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+
+<body id="top">
+
+	<!-- header
+   ================================================== -->
+	<header>
+		<div class="row">
+
+			<div class="top-bar">
+				<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+				<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll" href="#about" title="">About</a></li>
+						<li><a class="smoothscroll" href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll" href="#competencies" title="">Competencies</a></li>
+						<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
+					</ul>
+				</nav>
+			</div> <!-- /top-bar -->
+
+		</div> <!-- /row -->
+	</header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+	<section id="intro">
+
+		<div class="intro-overlay"></div>
+
+		<div class="intro-content">
+			<div class="row">
+
+				<div class="col-twelve">
+
+					<h5>Hello, World.</h5>
+					<div class="intro_name">
+						<h1>I'm Murtaza Syed.</h1>
+					</div>
+					<p class="intro-position">
+						<span>Senior Consultant</span>
+					</p>
+
+					<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+				</div>
+
+			</div>
+			<!-- client info overlay
+   ================================================== -->
+			<div class="client-overlay">
+				<div class="client-info">
+				<p>awesomecomp:~ murtaza$:fetch --client data</p>
+				<p id="client-ip">clientsIP:</p>
+				<p id="client-country">country:</p>
+				<p id="client-lat">lat:</p>
+				<p id="client-lon">lon:</p>
+				<p id="client-org">org:</p>
+				<div style="display: flex;"><p>awesomecomp:~ murtaza$:</p><p class="blink">I</p></div>
+			</div>
+			<div class="client-toggle">
+			<button id="bclient-info">></button>
+		</div>
+			</div>
+
+			<!-- /client info overlay -->
+		</div> <!-- /intro-content -->
+
+		<ul class="intro-social">
+			<li class="social-linkedin"><a href="https://www.linkedin.com/in/murtazasyed90/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+			<!-- <li class="social-github"><a  href="https://github.com/MurtazaS" target="_blank"><i class="fa fa-github"></i></a></li> -->
+			<li class="social-instagram"><a  href="https://www.instagram.com/murtazasy/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+		</ul> <!-- /intro-social -->
+
+	</section> <!-- /intro -->
+
+
+
+	<!-- about section
+   ================================================== -->
+	<section id="about">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>About</h5>
+				<h1>Let me introduce myself.</h1>
+
+				<div class="intro-info">
+
+					<img src="murtaza-profile.jpeg" alt="Profile Picture">
+
+					<p class="lead">I am an ambitious and personable individual with experience in software engineering,
+						network administration and web development.</p>
+				</div>
+
+			</div>
+		</div> <!-- /section-intro -->
+
+		<div class="row about-content">
+
+			<div class="col-six tab-full">
+
+				<h3>Profile</h3>
+				<p>Currently based in Frankfurt, Germany, working as an Associate Manager Consulting.</p>
+
+				<ul class="info-list">
+					<li>
+						<strong>Fullname:</strong>
+						<span>Murtaza Syed</span>
+					</li>
+					<li>
+						<strong>Birth Date:</strong>
+						<span>December 28, 1990</span>
+					</li>
+					<li>
+						<strong>Job:</strong>
+						<span>Associate Manager Consulting</span>
+					</li>
+					<li>
+						<strong>City:</strong>
+						<span>Frankfurt</span>
+					</li>
+					<li>
+						<strong>Website:</strong>
+						<span>This right here!</span>
+					</li>
+					<li>
+						<strong>Email:</strong>
+						<span>murtaza.s@hotmail.de</span>
+					</li>
+
+				</ul> <!-- /info-list -->
+
+			</div>
+
+			<div class="col-six tab-full">
+
+				<h3>Skills</h3>
+				<p>My skillset ranges from web development to native app development. I am also proficient in DevOps and
+					DBMS tasks.</p>
+
+				<ul class="skill-bars">
+					<li>
+						<div class="progress percent90"><span>90%</span></div>
+						<strong>Java, JavaScript</strong>
+					</li>
+					<li>
+						<div class="progress percent90"><span>70%</span></div>
+						<strong>C/C++, C#</strong>
+					</li>
+					<li>
+						<div class="progress percent95"><span>95%</span></div>
+						<strong>HTML5, CSS</strong>
+					</li>
+					<li>
+						<div class="progress percent80"><span>80%</span></div>
+						<strong>Angular, React</strong>
+					</li>
+					<li>
+						<div class="progress percent85"><span>85%</span></div>
+						<strong>Spring, JavaEE, Micronaut</strong>
+					</li>
+					<li>
+
+						<div class="progress percent80"><span>80%</span></div>
+						<strong>SQL, NoSQL DBs</strong>
+					</li>
+
+				</ul> <!-- /skill-bars -->
+
+			</div>
+
+		</div>
+
+		<div class="row button-section">
+			<div class="col-twelve">
+
+				<a href="Resume.pdf" target="_blank" id="bdownload-cv" title="Download CV" class="button button-primary">Download CV</a>
+			</div>
+		</div>
+
+	</section> <!-- /process-->
+
+
+	<!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Resume</h5>
+				<h1>More of my credentials.</h1>
+
+				<p class="lead">In the course of my career, I have worked in various industries and had a very
+					practice-rich education. Here is a brief overview of my progression.</p>
+
+			</div>
+		</div> <!-- /section-intro-->
+
+		<div class="row resume-timeline">
+
+			<div class="col-twelve resume-header">
+
+				<h2>Work Experience</h2>
+
+			</div> <!-- /resume-header -->
+
+			<div class="col-twelve">
+
+				<div class="timeline-wrap">
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Systems Developer</h3>
+							<p style="margin-bottom: auto;"><a href="https://goo.gl/maps/FDmKmqtBzHvhAskFA"><i
+										class="fa fa-map-marker"></i> Stuttgart, Germany</a></p>
+							<p>January 2019 - Present</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Daimler Mobility AG</h4>
+							<p>In my current position I am working on the development of microservices for the customer
+								portal of Mercedes-Benz. The microservices are mainly based on Spring Boot. I also
+								support frontend development tasks. Currently we are migrating an AngularJS project to
+								Angular.</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>IT Engineer</h3>
+							<p style="margin-bottom: auto;"><a href="https://goo.gl/maps/VmVf42ex5woMvU446"><i
+										class="fa fa-map-marker"></i> Geneva, Switzerland</a></p>
+							<p>2017 - 2018</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>CERN</h4>
+							<p>At CERN I worked in the International Relations Department as an IT Engineer and
+								technical student. Here I was responsible for the maintenance and administration of the
+								department's Drupal websites and database systems. I also wrote my master thesis here,
+								wherein I developed a web-based user interface for measuring and visualizing
+								radioactivity.</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>IT Working Student</h3>
+							<p style="margin-bottom: auto;"><a href="hhttps://goo.gl/maps/SoZKAafcN9mT8dWq6"><i
+										class="fa fa-map-marker"></i> Karlsruhe, Germany</a></p>
+							<p>2016 - 2017</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>EnBW AG</h4>
+							<p>My job as an IT working student at EnBW AG included the development of single-page
+								applications and Java Software development.</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+				</div> <!-- /timeline-block -->
+
+				<div class="timeline-block">
+
+					<div class="timeline-ico">
+						<i class="fa fa-briefcase"></i>
+					</div>
+
+					<div class="timeline-header">
+						<h3>IT Bachelor Student</h3>
+						<p style="margin-bottom: auto;"><i class="fa fa-map-marker"></i> Bruchsal, Germany</p>
+						<p>2012 - 2015</p>
+					</div>
+
+					<div class="timeline-content">
+						<h4>SEW-Eurodrive GmbH & Co KG</h4>
+						<p>My dual studies were combined with practical experience, where I worked in a drive-technology
+							company SEW-Eurodrive besides my studies. Here I got to know different fields of professions
+							like network technology, embedded systems and the development of desktop applications in the
+							.NET environment.</p>
+					</div>
+
+				</div> <!-- /timeline-block -->
+
+			</div> <!-- /timeline-wrap -->
+
+		</div> <!-- /col-twelve -->
+
+		</div> <!-- /resume-timeline -->
+
+		<div class="row resume-timeline">
+
+			<div class="col-twelve resume-header">
+
+				<h2>Education</h2>
+
+			</div> <!-- /resume-header -->
+
+			<div class="col-twelve">
+
+				<div class="timeline-wrap">
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Master Degree</h3>
+							<p style="margin-bottom: auto;"><i class="fa fa-map-marker"></i> Karlsruhe, Germany</p>
+							<p>2016 - 2018</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Karlsruhe University of Applied Sciences</h4>
+							<p>My major field of study in my master's degree was Interactive Systems. Here I acquired
+								knowledge about the development of human-machine interfaces. Also the design of UX/UI as
+								well as machine learning and data mining were important parts of my studies.</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Bachelor Degree</h3>
+							<p style="margin-bottom: auto;"><i class="fa fa-map-marker"></i> Karlsruhe, Germany</p>
+							<p>2012 - 2015</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Baden-Wuerttemberg Cooperative State University (DHBW)</h4>
+							<p>My bachelor studies included the basics of electrical engineering and advanced contents
+								of theoretical and technical computer science. </p>
+						</div>
+
+					</div> <!-- /timeline-wrap -->
+
+				</div> <!-- /col-twelve -->
+
+			</div> <!-- /resume-timeline -->
+
+	</section> <!-- /features -->
+
+
+	<!-- Competencies Section
+   ================================================== -->
+	<section id="competencies">
+
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Competencies</h5>
+				<h1>These are my core values.</h1>
+
+				<!-- <p class="lead">My strongest capabilities are summed up into three major categories below.</p> -->
+
+			</div>
+		</div> <!-- /section-intro -->
+
+		<div class="row competencies-content">
+
+			<div id="owl-slider" class="owl-carousel competencies-list">
+
+				<div class="competencie">
+
+					<span class="icon"><i class="fa fa-code" style='margin: 0.3rem;'></i></span>
+
+					<div class="competencie-content">
+
+						<h3>Software Engineering</h3>
+
+						<p class="desc">A clean code not only looks nice but is also very important for testing and
+							further development, maintenance of the software. Test driven development and domain driven
+							design have accompanied me to a successful software development. I also have profound
+							knowledge in software architecture, project- and quality management.
+						</p>
+
+					</div>
+
+				</div> <!-- /competencie -->
+
+				<div class="competencie">
+
+					<span class="icon"><i class="icon-window"></i></span>
+
+					<div class="competencie-content">
+
+						<h3>Web Development</h3>
+
+						<p class="desc">For the last four years I have been working as a web developer. During this time
+							I have done frontend and backend development. Furthermore, I have good knowledge in DevOps,
+							including source code management, continuous integration, and continuous delivery.
+							I also bring a passion for UX/UI design.
+						</p>
+
+					</div>
+
+				</div> <!-- /competencie -->
+
+				<div class="competencie">
+
+					<span class="icon"><i class="icon-toggles"></i></span>
+
+					<div class="competencie-content">
+
+						<h3>Desktop/Mobile Apps</h3>
+
+						<p class="desc">Since the beginning of my software development career I have been involved in
+							the development of mobile and desktop applications (also for private purposes). I have
+							developed several desktop applications in C# and Java as well as mobile apps for Android and
+							iOS.
+						</p>
+
+					</div>
+
+				</div> <!-- /competencie -->
+
+			</div> <!-- /competencies-list -->
+
+		</div> <!-- /competencies-content -->
+
+	</section> <!-- /competencies -->
+
+
+	<!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Contact</h5>
+				<h1>I'd Love To Hear From You.</h1>
+
+				<p class="lead">For questions or inquiries please use the contact form below or contact me directly via
+					email or mobile.</p>
+
+			</div>
+		</div> <!-- /section-intro -->
+
+		<div class="row contact-form">
+
+			<div class="col-twelve">
+
+				<!-- form -->
+				<form name="contactForm" id="contactForm" method="post">
+					<fieldset>
+
+						<div class="form-field">
+							<input name="contactName" type="text" id="contactName" placeholder="Name" value=""
+								minlength="2" required="">
+						</div>
+						<div class="form-field">
+							<input name="_replyTo" type="email" id="contactEmail" placeholder="Email" value=""
+								required="">
+						</div>
+						<div class="form-field">
+							<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+							<input type="text" name="_gotcha" style="display:none" />
+						</div>
+						<div class="form-field">
+							<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10"
+								cols="50" required=""></textarea>
+						</div>
+						<div class="form-field">
+							<button class="submitform">Submit</button>
+							<div id="submit-loader">
+								<div class="text-loader">Sending...</div>
+								<div class="s-loader">
+									<div class="bounce1"></div>
+									<div class="bounce2"></div>
+									<div class="bounce3"></div>
+								</div>
+							</div>
+						</div>
+
+					</fieldset>
+				</form> <!-- Form End -->
+
+				<!-- contact-warning -->
+				<div id="message-warning">
+				</div>
+				<!-- contact-success -->
+				<div id="message-success">
+					<i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				</div>
+
+			</div> <!-- /col-twelve -->
+
+		</div> <!-- /contact-form -->
+
+		<div class="row contact-info">
+
+			<div class="col-twelve tab-full collapse">
+
+				<div class="icon">
+					<i class="icon-mail"></i>
+				</div>
+
+				<h5>Email Me At</h5>
+
+				<p>murtaza.s@hotmail.de</p>
+
+			</div>
+
+
+		</div> <!-- /contact-info -->
+
+	</section> <!-- /contact -->
+
+
+	<!-- footer
+   ================================================== -->
+
+	<footer>
+		<div class="row">
+
+			<div class="col-six tab-full pull-right social">
+
+				<ul class="footer-social">
+					<li><a href="https://www.linkedin.com/in/murtazasyed90/" target="_blank"><i class="fa fa-linkedin"></i></a>
+					</li>
+<!-- 					<li><a href="https://github.com/MurtazaS" target="_blank"><i class="fa fa-github"></i></a>
+					</li> -->
+					<li><a href="https://www.instagram.com/murtazasy/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+				</ul>
+
+			</div>
+
+			<div class="col-six tab-full">
+				<div class="copyright">
+					<span>© Copyright Murtaza Syed 2025.</span>
+					<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>
+				</div>
+			</div>
+
+			<div id="go-top">
+				<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+			</div>
+
+		</div> <!-- /row -->
+	</footer>
+
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+
+	<!-- Java Script
+   ================================================== -->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
