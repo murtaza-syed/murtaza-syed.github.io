@@ -1,2 +1,2 @@
-# Irtaza Syed
+# Murtaza Syed
 Personal Web Page
